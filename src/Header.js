@@ -2,6 +2,7 @@ import React from 'react';
 
 export function Header(props) {
   let [clock, setClock]=React.useState(Date().tolocaleString());
+  console.log(clock);
   setInterval(() ==> {
     setClock(Date().tolocaleString());
   },1000);
