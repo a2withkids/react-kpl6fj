@@ -3,9 +3,9 @@ import React from 'react';
 export default function Counter() {
   const [count, setCount]=React.useState(0);
 
-  React.useEffect(() ==>{
+  React.useEffect(() ==> {
     localStorage.setItem('count',count);
-  }[count]);
+  },[count]);
   function handleClick(event) {
     event.preventDefault();
     setCount((previousValue)==>previousValue+1);

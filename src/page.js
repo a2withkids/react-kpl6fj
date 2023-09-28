@@ -1,6 +1,6 @@
 import React from 'react';
-import { Header } from './Header';
-import Counter from './Counter';
+import { Header } from './header';
+import Counter from './counter';
 
 export default function () {
   const name = 'Johhn';
